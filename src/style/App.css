@@ -34,7 +34,8 @@ nav {
     cursor: pointer;
 }
 
-li a {
+
+/* li a {
     float: left;
     display: flex;
     text-align: center;
@@ -42,7 +43,7 @@ li a {
     text-decoration: none;
     color: white;
     cursor: pointer;
-}
+} */
 
 .image {
     max-width: 90px;
@@ -54,6 +55,17 @@ li a:hover:not(.active) {
     background-color: #111;
 }
 
-a:visited {
+.nav-link {
+    float: left;
+    display: flex;
+    text-align: center;
+    padding: 0.7rem 1.2rem;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-link.active {
     background-color: #04AA6D;
+    color: #333;
 }
