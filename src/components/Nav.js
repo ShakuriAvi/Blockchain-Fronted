@@ -34,44 +34,82 @@ function Nav() {
               <a>Block</a>
             </li>
           </Link>
-          <Link className={"nav-link"} to="/Blockchain">
+          <Link
+            className={active === "Blockchain" ? "nav-link active" : "nav-link"}
+            onClick={() => handleActive("Blockchain")}
+            to="/Blockchain"
+          >
             <li>
               {" "}
               <a> Blockchain</a>
             </li>
           </Link>
-          <Link className={"nav-link"} to="/Distributed">
+          <Link
+            className={
+              active === "Distributed" ? "nav-link active" : "nav-link"
+            }
+            onClick={() => handleActive("Distributed")}
+            to="/Distributed"
+          >
             <li>
               <a> Distributed</a>
             </li>
           </Link>
-          <Link className={"nav-link"} to="/Tokens">
+          <Link
+            className={active === "Tokens" ? "nav-link active" : "nav-link"}
+            onClick={() => handleActive("Tokens")}
+            to="/Tokens"
+          >
             <li>
               <a>Tokens</a>
             </li>
           </Link>
-          <Link className={"nav-link"} to="/CoinBase">
+          <Link
+            className={active === "CoinBase" ? "nav-link active" : "nav-link"}
+            onClick={() => handleActive("CoinBase")}
+            to="/CoinBase"
+          >
             <li>
               <a>CoinBase</a>
             </li>
           </Link>
-          <Link className={"nav-link"} to="/Keys">
+          <Link
+            className={active === "Keys" ? "nav-link active" : "nav-link"}
+            onClick={() => handleActive("Keys")}
+            to="/Keys"
+          >
             <li>
               <a>Keys</a>
             </li>
           </Link>
-          <Link className={"nav-link"} to="/Signatures">
+          <Link
+            className={active === "Signatures" ? "nav-link active" : "nav-link"}
+            onClick={() => handleActive("Signatures")}
+            to="/Signatures"
+          >
             <li>
               <a>Signatures</a>
             </li>
           </Link>
 
-          <Link className={"nav-link"} to="/Transaction">
+          <Link
+            className={
+              active === "Transaction" ? "nav-link active" : "nav-link"
+            }
+            onClick={() => handleActive("Transaction")}
+            to="/Transaction"
+          >
             <li>
               <a>Transaction</a>
             </li>
           </Link>
-          <Link className={"nav-link"} to="/BlockchainSigned">
+          <Link
+            className={
+              active === "BlockchainSigned" ? "nav-link active" : "nav-link"
+            }
+            onClick={() => handleActive("BlockchainSigned")}
+            to="/BlockchainSigned"
+          >
             <li>
               <a>BlockchainSigned</a>
             </li>

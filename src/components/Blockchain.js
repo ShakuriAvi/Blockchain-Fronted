@@ -4,10 +4,8 @@ import React, { useEffect, useState } from "react";
 import Block from "./Block";
 import { css } from "@emotion/react";
 import axios from "axios";
-const fs = require("fs");
-const uri = fs.readFileSync("../dev.txt")
-  ? "http://localhost:3001"
-  : "https://blockchain-back-nodejs.herokuapp.com";
+
+const uri = "http://localhost:3001";
 
 const Blockchain = ({ type }) => {
   var send;
