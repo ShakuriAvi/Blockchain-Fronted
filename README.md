@@ -5,7 +5,7 @@ There is a video tutorial and a demo site that can be used to reinforce the conc
 https://andersbrownworth.com/blockchain/
 
 Implemented the blockchain-Demo by nodejs (Backend) and reactJs (Frontend).</br>
-Link to Backend: https://github.com/ShakuriAvi/Blockchain-Backend/tree/master
+Link to Backend: https://github.com/ShakuriAvi/Blockchain-Backend </br>
 There are few options in the program:
 # Hash
 
