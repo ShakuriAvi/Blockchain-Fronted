@@ -51,10 +51,6 @@ nav {
     padding: 1rem;
 }
 
-li a:hover:not(.active) {
-    background-color: #111;
-}
-
 .nav-link {
     float: left;
     display: flex;
