@@ -1,6 +1,11 @@
 # Blockchain Demo
 visual demo of blockchain technology which attempts to explain the technology by building up from simple concepts using a web demo.
-Implemented the blockchain with nodejs (Backend) and reactJs (Frontend).
+The project was inspired by the idea of anders-brownworth.
+There is a video tutorial and a demo site that can be used to reinforce the concepts.
+https://andersbrownworth.com/blockchain/
+
+Implemented the blockchain-Demo by nodejs (Backend) and reactJs (Frontend).
+
 There are few options in the program:
 # Hash
 
